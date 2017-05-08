@@ -1,0 +1,67 @@
+.container {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+}
+#primary-menu li a {
+    font-size: 26px;
+    margin: 5px;
+}
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#primary-menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.pagination {
+    font-size: 18px;
+    display: block;
+    text-align: center;
+}
+.current, .inactive {
+    background-color: #c1e8fe;
+    margin: 5px;
+    padding: 10px 15px;
+
+}
+.current {
+    background-color: #b1d8ee;
+    color: lightyellow;
+}
+.widget ul li {
+    letter-spacing: 1px;
+    font-family: 'Droid Serif';
+    font-size: 18px;
+}
+.widget ul {
+    padding-left: 0;
+}
+.widget h2 {
+    font-family: 'Droid Sans';
+}
+.home-info .title-home, .short-desc-home {
+    text-align: center;
+    display: block;
+}
+.short-desc-home {
+    font-size: 17px;
+    font-family: 'Droid Serif';
+}
+.form-submit {
+    overflow: hidden;
+    input#register {
+        float: right;
+        font-size: 15px;
+    }
+}
+.home-info {
+    border-right: 1px solid;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom-width: 15px;
+    padding-bottom: 30px;
+}
