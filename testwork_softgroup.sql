@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Май 08 2017 г., 18:06
+-- Время создания: Май 08 2017 г., 21:23
 -- Версия сервера: 5.5.53
 -- Версия PHP: 5.6.29
 
@@ -289,7 +289,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (575, '_site_transient_update_plugins', 'O:8:\"stdClass\":4:{s:12:\"last_checked\";i:1494239238;s:8:\"response\";a:1:{s:19:\"akismet/akismet.php\";O:8:\"stdClass\":8:{s:2:\"id\";s:2:\"15\";s:4:\"slug\";s:7:\"akismet\";s:6:\"plugin\";s:19:\"akismet/akismet.php\";s:11:\"new_version\";s:5:\"3.3.1\";s:3:\"url\";s:38:\"https://wordpress.org/plugins/akismet/\";s:7:\"package\";s:56:\"https://downloads.wordpress.org/plugin/akismet.3.3.1.zip\";s:6:\"tested\";s:5:\"4.7.4\";s:13:\"compatibility\";O:8:\"stdClass\":1:{s:6:\"scalar\";O:8:\"stdClass\":1:{s:6:\"scalar\";b:0;}}}}s:12:\"translations\";a:0:{}s:9:\"no_update\";a:6:{s:30:\"advanced-custom-fields/acf.php\";O:8:\"stdClass\":6:{s:2:\"id\";s:5:\"21367\";s:4:\"slug\";s:22:\"advanced-custom-fields\";s:6:\"plugin\";s:30:\"advanced-custom-fields/acf.php\";s:11:\"new_version\";s:6:\"4.4.11\";s:3:\"url\";s:53:\"https://wordpress.org/plugins/advanced-custom-fields/\";s:7:\"package\";s:72:\"https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.11.zip\";}s:45:\"ckeditor-for-wordpress/ckeditor_wordpress.php\";O:8:\"stdClass\":6:{s:2:\"id\";s:5:\"11120\";s:4:\"slug\";s:22:\"ckeditor-for-wordpress\";s:6:\"plugin\";s:45:\"ckeditor-for-wordpress/ckeditor_wordpress.php\";s:11:\"new_version\";s:7:\"4.5.3.3\";s:3:\"url\";s:53:\"https://wordpress.org/plugins/ckeditor-for-wordpress/\";s:7:\"package\";s:65:\"https://downloads.wordpress.org/plugin/ckeditor-for-wordpress.zip\";}s:65:\"forget-about-shortcode-buttons/forget-about-shortcode-buttons.php\";O:8:\"stdClass\":6:{s:2:\"id\";s:5:\"49237\";s:4:\"slug\";s:30:\"forget-about-shortcode-buttons\";s:6:\"plugin\";s:65:\"forget-about-shortcode-buttons/forget-about-shortcode-buttons.php\";s:11:\"new_version\";s:5:\"1.1.2\";s:3:\"url\";s:61:\"https://wordpress.org/plugins/forget-about-shortcode-buttons/\";s:7:\"package\";s:79:\"https://downloads.wordpress.org/plugin/forget-about-shortcode-buttons.1.1.2.zip\";}s:9:\"hello.php\";O:8:\"stdClass\":6:{s:2:\"id\";s:4:\"3564\";s:4:\"slug\";s:11:\"hello-dolly\";s:6:\"plugin\";s:9:\"hello.php\";s:11:\"new_version\";s:3:\"1.6\";s:3:\"url\";s:42:\"https://wordpress.org/plugins/hello-dolly/\";s:7:\"package\";s:58:\"https://downloads.wordpress.org/plugin/hello-dolly.1.6.zip\";}s:25:\"profile-builder/index.php\";O:8:\"stdClass\":6:{s:2:\"id\";s:5:\"21897\";s:4:\"slug\";s:15:\"profile-builder\";s:6:\"plugin\";s:25:\"profile-builder/index.php\";s:11:\"new_version\";s:5:\"2.6.1\";s:3:\"url\";s:46:\"https://wordpress.org/plugins/profile-builder/\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/plugin/profile-builder.2.6.1.zip\";}s:29:\"wp-like-post/wp-like-post.php\";O:8:\"stdClass\":6:{s:2:\"id\";s:5:\"60217\";s:4:\"slug\";s:12:\"wp-like-post\";s:6:\"plugin\";s:29:\"wp-like-post/wp-like-post.php\";s:11:\"new_version\";s:5:\"1.5.2\";s:3:\"url\";s:43:\"https://wordpress.org/plugins/wp-like-post/\";s:7:\"package\";s:55:\"https://downloads.wordpress.org/plugin/wp-like-post.zip\";}}}', 'no'),
 (576, '_site_transient_timeout_theme_roots', '1494241862', 'no'),
 (577, '_site_transient_theme_roots', 'a:4:{s:20:\"test-work_soft-group\";s:7:\"/themes\";s:13:\"twentyfifteen\";s:7:\"/themes\";s:15:\"twentyseventeen\";s:7:\"/themes\";s:13:\"twentysixteen\";s:7:\"/themes\";}', 'no'),
-(595, '_transient_is_multi_author', '0', 'yes');
+(578, '_transient_is_multi_author', '0', 'yes');
 
 -- --------------------------------------------------------
 
@@ -930,7 +930,8 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (217, 1, '2017-05-08 13:44:03', '2017-05-08 10:44:03', '{\n    \"test-work_soft-group::title_home\": {\n        \"value\": \"Welcome to AutoWorld!\",\n        \"type\": \"theme_mod\",\n        \"user_id\": 1\n    }\n}', '', '', 'trash', 'closed', 'closed', '', '040b6c35-cf84-4a98-a015-8f2a4d1cfed5', '', '', '2017-05-08 13:44:03', '2017-05-08 10:44:03', '', 0, 'http://testwork-softgroup.loc/2017/05/08/040b6c35-cf84-4a98-a015-8f2a4d1cfed5/', 0, 'customize_changeset', '', 0),
 (218, 1, '2017-05-08 13:44:57', '0000-00-00 00:00:00', '{\n    \"test-work_soft-group::description\": {\n        \"value\": \"dcaewshrehyt\",\n        \"type\": \"theme_mod\",\n        \"user_id\": 1\n    }\n}', '', '', 'auto-draft', 'closed', 'closed', '', '3456f50f-edfd-4d64-a7ee-46999bec2abb', '', '', '2017-05-08 13:44:57', '0000-00-00 00:00:00', '', 0, 'http://testwork-softgroup.loc/?p=218', 0, 'customize_changeset', '', 0),
 (219, 1, '2017-05-08 13:49:49', '2017-05-08 10:49:49', '{\n    \"test-work_soft-group::description\": {\n        \"value\": \"dcaewshrehytjd,md y j \",\n        \"type\": \"theme_mod\",\n        \"user_id\": 1\n    }\n}', '', '', 'trash', 'closed', 'closed', '', '6fd3fb47-9ca3-4934-8c7c-ffa3d1352947', '', '', '2017-05-08 13:49:49', '2017-05-08 10:49:49', '', 0, 'http://testwork-softgroup.loc/2017/05/08/6fd3fb47-9ca3-4934-8c7c-ffa3d1352947/', 0, 'customize_changeset', '', 0),
-(220, 1, '2017-05-08 13:55:13', '2017-05-08 10:55:13', '{\n    \"test-work_soft-group::description\": {\n        \"value\": \"This blog with the best, news in the world of cars\",\n        \"type\": \"theme_mod\",\n        \"user_id\": 1\n    }\n}', '', '', 'trash', 'closed', 'closed', '', '9791912e-c96c-445f-a7b9-8e897455f33a', '', '', '2017-05-08 13:55:13', '2017-05-08 10:55:13', '', 0, 'http://testwork-softgroup.loc/2017/05/08/9791912e-c96c-445f-a7b9-8e897455f33a/', 0, 'customize_changeset', '', 0);
+(220, 1, '2017-05-08 13:55:13', '2017-05-08 10:55:13', '{\n    \"test-work_soft-group::description\": {\n        \"value\": \"This blog with the best, news in the world of cars\",\n        \"type\": \"theme_mod\",\n        \"user_id\": 1\n    }\n}', '', '', 'trash', 'closed', 'closed', '', '9791912e-c96c-445f-a7b9-8e897455f33a', '', '', '2017-05-08 13:55:13', '2017-05-08 10:55:13', '', 0, 'http://testwork-softgroup.loc/2017/05/08/9791912e-c96c-445f-a7b9-8e897455f33a/', 0, 'customize_changeset', '', 0),
+(221, 1, '2017-05-08 19:02:12', '0000-00-00 00:00:00', '', 'Auto Draft', '', 'auto-draft', 'open', 'open', '', '', '', '', '2017-05-08 19:02:12', '0000-00-00 00:00:00', '', 0, 'http://testwork-softgroup.loc/?p=221', 0, 'post', '', 0);
 
 -- --------------------------------------------------------
 
@@ -1071,7 +1072,7 @@ INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALU
 (12, 1, 'wp_user_level', '10'),
 (13, 1, 'dismissed_wp_pointers', ''),
 (14, 1, 'show_welcome_panel', '1'),
-(16, 1, 'wp_dashboard_quick_press_last_post_id', '3'),
+(16, 1, 'wp_dashboard_quick_press_last_post_id', '221'),
 (17, 1, 'managenav-menuscolumnshidden', 'a:5:{i:0;s:11:\"link-target\";i:1;s:11:\"css-classes\";i:2;s:3:\"xfn\";i:3;s:11:\"description\";i:4;s:15:\"title-attribute\";}'),
 (18, 1, 'metaboxhidden_nav-menus', 'a:1:{i:0;s:12:\"add-post_tag\";}'),
 (19, 1, 'wp_user-settings', 'editor=tinymce&mfold=o&libraryContent=browse'),
@@ -1227,12 +1228,12 @@ ALTER TABLE `wp_users`
 -- AUTO_INCREMENT для таблицы `wp_commentmeta`
 --
 ALTER TABLE `wp_commentmeta`
-  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT для таблицы `wp_comments`
 --
 ALTER TABLE `wp_comments`
-  MODIFY `comment_ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `comment_ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
 -- AUTO_INCREMENT для таблицы `wp_gs_like_post`
 --
@@ -1247,17 +1248,17 @@ ALTER TABLE `wp_links`
 -- AUTO_INCREMENT для таблицы `wp_options`
 --
 ALTER TABLE `wp_options`
-  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=600;
+  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=579;
 --
 -- AUTO_INCREMENT для таблицы `wp_postmeta`
 --
 ALTER TABLE `wp_postmeta`
-  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=939;
+  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=921;
 --
 -- AUTO_INCREMENT для таблицы `wp_posts`
 --
 ALTER TABLE `wp_posts`
-  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=221;
+  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=222;
 --
 -- AUTO_INCREMENT для таблицы `wp_termmeta`
 --

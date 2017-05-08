@@ -16,7 +16,7 @@
 <footer id="colophon" class="site-footer" role="contentinfo">
     <div class="site-info">
         <a href="<?php echo esc_url(__('https://github.com/Gullitan', 'test-work_soft-group')); ?>"><?php printf(esc_html__('Proudly powered by Gullitan', 'test-work_soft-group'), 'WordPress'); ?></a>
-        <span class="sep"> | 2017 </span>
+        <span class="sep"> | <?php echo date('Y'); ?> </span>
     </div><!-- .site-info -->
 </footer><!-- #colophon -->
 </div><!-- #page -->

@@ -25,10 +25,10 @@ get_header(); ?>
                 </span>
                 <div class="row">
                     <aside class="col-lg-6">
-                        <?php echo dynamic_sidebar('categories'); ?>
+                        <?php dynamic_sidebar( 'categories' ); ?>
                     </aside>
                     <aside class="col-lg-6">
-                        <?php echo dynamic_sidebar('archives'); ?>
+                        <?php dynamic_sidebar('archives'); ?>
                     </aside>
                 </div>
             </div>
